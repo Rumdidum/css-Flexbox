@@ -64,6 +64,12 @@ body {
   display: flex;
   /* justify-content: space-evenly; */
   justify-content: space-between;
+  
+}
+@media (max-width: 875px) {
+  .task-3 .container {
+    flex-direction: column;
+  }
 }
 
 /* TASK 4 */
