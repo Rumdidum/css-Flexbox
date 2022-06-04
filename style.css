@@ -33,6 +33,7 @@ body {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   background-color: tomato;
   text-align: center;
+  border: solid blueviolet 2px;
 }
 
 .sm {
@@ -95,7 +96,9 @@ body {
 .task-4 .option-3 .item:first-child {
   flex-grow: 1;
 }
-
+.task-4 .option-3 .item {
+  flex: 1 1 auto;
+}
 /* TASK 5 */
 
 .task-5 .container {
@@ -140,6 +143,7 @@ body {
 
 .task-7 .container {
   display: flex;
+  flex-direction: column;
 }
 
 .task-7 .item-1 {
@@ -148,6 +152,7 @@ body {
 
 .task-7 .item-3 {
   order: 1;
+  align-self: c;
 }
 
 /* TASK 8 */
